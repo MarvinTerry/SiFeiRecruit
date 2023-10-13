@@ -28,7 +28,7 @@ for i in range(len(contours)):
     cx = int(M['m10'] / M['m00'])
     cy = int(M['m01'] / M['m00'])
     cv2.drawMarker(image_center, (cx, cy), (0, 0, 255), cv2.MARKER_CROSS, 20, 1)
-    cv2.putText(image_num, str(i), (cx, cy), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
+    cv2.putText(image_num, str(i+1), (cx, cy), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 1)
     
 
 #显示图片

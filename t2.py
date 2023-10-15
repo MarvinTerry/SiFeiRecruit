@@ -114,6 +114,4 @@ if __name__ == '__main__':
 
     draw_path(image, path)
 
-    #判断两向量是否临近
-
 
